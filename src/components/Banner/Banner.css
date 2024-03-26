@@ -1,0 +1,71 @@
+
+
+.banner {
+    font-family: Inter, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 16px;
+    gap: 12px;
+    width: 100%;
+    max-width: 896px;
+    display: flex;
+}
+.banner-icon svg{
+    width: 20px;
+    height: 20px;
+}
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.banner-title {
+   font-size:16px;
+   font-weight: 500;
+}
+.banner-description {
+    font-size: 14px; 
+    font-weight: 400;   
+}
+
+.banner.variant-sucess{
+    background:#ECFDF5;
+}
+.banner.variant-sucess .banner-icon svg{
+    color: #34D399;
+}
+.banner.variant-sucess .banner-text {
+    color: #047857;
+
+}
+
+.banner.variant-warning{
+    background: #FFFBEB;
+}
+.banner.variant-warning .banner-icon svg{
+    color: #FBBF24
+}
+.banner.variant-warning .banner-text {
+    color: #B45309;
+}
+
+.banner.variant-error{
+    background: #FEF2F2;
+}
+.banner.variant-error .banner-icon svg{
+    color: #F87171;
+}
+.banner.variant-error .banner-text {
+    color: #B45309;
+}
+
+.banner.variant-neutral{
+    background:#EFF6FF;
+}
+.banner.variant-neutral .banner-icon svg{
+    color: #60A5FA;
+}
+.banner.variant-neutral .banner-text {
+    color: #1C51B9;
+}

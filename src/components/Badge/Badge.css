@@ -1,0 +1,19 @@
+.badge {
+    font-family:Inter, 'Times New Roman', Times, serif;
+    display: inline-block;
+    background: #F3F4F6;
+    padding: 3px 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+
+}
+
+.badge.badge-type-square {
+    border-radius: 4px;
+}
+
+.badge.badge-type-pill {
+    border-radius: 12px;
+}
